@@ -1,3 +1,8 @@
+/* print the index of the element in array which is in Equilibrium State */
+
+/* Element is in Equilibrium state if sum of all the elements in its left side
+is equal to the sum of the elements in the right side */
+
 #include<stdio.h>
 int equiIndex(int a[], int *x);
 int equiIndex(int a[], int *x){
